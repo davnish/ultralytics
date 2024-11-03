@@ -1,0 +1,12 @@
+# This txt file is contains the info about this project
+
+1. "results/" dir contains the final predictions of our model.
+2. "results/prediction.shp" is the final prediction over the whole are in vector format.
+3. "data_conversion.ipynb" contains the code for data conversion from uint16 to uint8.
+4. "image_conversion.ipynb" contains the preprocessing code getting the closest pixels to the polygon's centroid.
+5. "creating_labels.ipynb" contains the preprocessing code for converting the data into model readable format.
+6. "plotting_bbox.ipynb" contains the code for plotting the preprocessed labels over the raster using `matplotlib`
+7. "txt_labels_to_shp.ipynb" contains the code for converting the txt labels to vector format.
+8. "train.py" contains the code for training the model.
+9. "test.py" contains the code for using the best trained for evaluating and getting predictions.
+10. "preprocessing_data/" contains the raw and preprocessed data.

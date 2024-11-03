@@ -1,0 +1,286 @@
+<VRTDataset rasterXSize="972" rasterYSize="542">
+  <SRS dataAxisToSRSAxisMapping="2,1">GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -4.2433690000000004e+00,  4.4208500000000002e-06,  0.0000000000000000e+00,  5.4205500000000004e+00,  0.0000000000000000e+00, -4.4208600000000001e-06</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">77</MDI>
+      <MDI key="STATISTICS_MEAN">26.307888862782</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">8.4574691772207</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="0" yOff="0" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="256" yOff="0" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="512" yOff="0" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="204" RasterYSize="256" DataType="Byte" BlockXSize="204" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="204" ySize="256" />
+      <DstRect xOff="768" yOff="0" xSize="204" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="0" yOff="256" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.5.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="256" yOff="256" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.6.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="512" yOff="256" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.7.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="204" RasterYSize="256" DataType="Byte" BlockXSize="204" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="204" ySize="256" />
+      <DstRect xOff="768" yOff="256" xSize="204" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.8.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="30" DataType="Byte" BlockXSize="256" BlockYSize="30" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="30" />
+      <DstRect xOff="0" yOff="512" xSize="256" ySize="30" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.9.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="30" DataType="Byte" BlockXSize="256" BlockYSize="30" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="30" />
+      <DstRect xOff="256" yOff="512" xSize="256" ySize="30" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.10.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="30" DataType="Byte" BlockXSize="256" BlockYSize="30" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="30" />
+      <DstRect xOff="512" yOff="512" xSize="256" ySize="30" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.11.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="204" RasterYSize="30" DataType="Byte" BlockXSize="204" BlockYSize="30" />
+      <SrcRect xOff="0" yOff="0" xSize="204" ySize="30" />
+      <DstRect xOff="768" yOff="512" xSize="204" ySize="30" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">76</MDI>
+      <MDI key="STATISTICS_MEAN">34.681312656642</MDI>
+      <MDI key="STATISTICS_MINIMUM">6</MDI>
+      <MDI key="STATISTICS_STDDEV">8.3572796352038</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.0.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="0" yOff="0" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.1.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="256" yOff="0" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.2.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="512" yOff="0" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.3.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="204" RasterYSize="256" DataType="Byte" BlockXSize="204" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="204" ySize="256" />
+      <DstRect xOff="768" yOff="0" xSize="204" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.4.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="0" yOff="256" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.5.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="256" yOff="256" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.6.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="512" yOff="256" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.7.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="204" RasterYSize="256" DataType="Byte" BlockXSize="204" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="204" ySize="256" />
+      <DstRect xOff="768" yOff="256" xSize="204" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.8.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="30" DataType="Byte" BlockXSize="256" BlockYSize="30" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="30" />
+      <DstRect xOff="0" yOff="512" xSize="256" ySize="30" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.9.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="30" DataType="Byte" BlockXSize="256" BlockYSize="30" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="30" />
+      <DstRect xOff="256" yOff="512" xSize="256" ySize="30" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.10.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="30" DataType="Byte" BlockXSize="256" BlockYSize="30" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="30" />
+      <DstRect xOff="512" yOff="512" xSize="256" ySize="30" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.11.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="204" RasterYSize="30" DataType="Byte" BlockXSize="204" BlockYSize="30" />
+      <SrcRect xOff="0" yOff="0" xSize="204" ySize="30" />
+      <DstRect xOff="768" yOff="512" xSize="204" ySize="30" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">70</MDI>
+      <MDI key="STATISTICS_MEAN">35.156954887218</MDI>
+      <MDI key="STATISTICS_MINIMUM">7</MDI>
+      <MDI key="STATISTICS_STDDEV">7.5698693738772</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.0.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="0" yOff="0" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.1.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="256" yOff="0" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.2.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="512" yOff="0" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.3.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="204" RasterYSize="256" DataType="Byte" BlockXSize="204" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="204" ySize="256" />
+      <DstRect xOff="768" yOff="0" xSize="204" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.4.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="0" yOff="256" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.5.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="256" yOff="256" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.6.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="256" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="256" />
+      <DstRect xOff="512" yOff="256" xSize="256" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.7.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="204" RasterYSize="256" DataType="Byte" BlockXSize="204" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="204" ySize="256" />
+      <DstRect xOff="768" yOff="256" xSize="204" ySize="256" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.8.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="30" DataType="Byte" BlockXSize="256" BlockYSize="30" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="30" />
+      <DstRect xOff="0" yOff="512" xSize="256" ySize="30" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.9.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="30" DataType="Byte" BlockXSize="256" BlockYSize="30" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="30" />
+      <DstRect xOff="256" yOff="512" xSize="256" ySize="30" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.10.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="256" RasterYSize="30" DataType="Byte" BlockXSize="256" BlockYSize="30" />
+      <SrcRect xOff="0" yOff="0" xSize="256" ySize="30" />
+      <DstRect xOff="512" yOff="512" xSize="256" ySize="30" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">8bit.11.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="204" RasterYSize="30" DataType="Byte" BlockXSize="204" BlockYSize="30" />
+      <SrcRect xOff="0" yOff="0" xSize="204" ySize="30" />
+      <DstRect xOff="768" yOff="512" xSize="204" ySize="30" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
